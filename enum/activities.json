@@ -1,0 +1,37 @@
+[
+    {
+        "label": "Dashboard",
+        "description": "",
+        "link": "/dashboard",
+        "icon": {
+            "collection": "material-symbols",
+            "name": "home-outline"
+        }
+    },
+    {
+        "label": "Stats",
+        "description": "Check interesting statististics about your account !",
+        "link": "/stats",
+        "icon": {
+            "collection": "material-symbols",
+            "name": "insert-chart-outline-sharp"
+        }
+    },
+    {
+        "label": "BlindTest",
+        "description": "Are you able to recognize every tracks from your Liked Songs ? Let's try !",
+        "link": "blindtest",
+        "icon": {
+            "collection": "material-symbols",
+            "name": "queue-music-rounded"
+        }
+    },
+    {
+        "label": "Logout",
+        "link": "/login",
+        "icon": {
+            "collection": "ic",
+            "name": "outline-logout"
+        }
+    }
+]
