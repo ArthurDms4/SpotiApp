@@ -6,6 +6,9 @@ export default <Partial<Config>>{
     extend: {
       colors: {
         spotifyGreen: "#1db954"
+      },
+      spacing: {
+        '30p': '30%'
       }
     }
   }

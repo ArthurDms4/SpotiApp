@@ -16,6 +16,7 @@
           <form class="w-3/4 flex flex-col items-center " @submit.prevent="handleFormSubmit">
             <UInputMenu class="w-3/4" :search-attributes="['artists.0.name', 'name']" placeholder="Guess the song ..." v-model="songAttempt" :options="likedSongs" option-attribute="name">
               <template  #option="{option: track}">
+                <NuxtImg class="w-1/6" :src="track.album.images[0].url"></NuxtImg>
                 <span>{{ track.name }} -</span>
                 <span v-for="artist in track.artists">{{ artist.name }}</span>
               </template>
